@@ -17,8 +17,9 @@ $ ls<ENTER>
 
 Copy and paste the output of ls below.
 ----------
-
-
+Adlm		Documents	Movies		Public
+Applications	Downloads	Music		Sites
+Desktop		Library		Pictures	isus
 
 ==========
 2a. Type: 
@@ -27,20 +28,17 @@ $ ls D<TAB>
 
 What happens?  Describe it below.
 ----------
-
-
+Nothing happened and it took me nowhere.
 
 ==========
 2b. Press <TAB> one more time.  Copy and paste the output below.
 ----------
-
-
+Desktop/   Documents/ Downloads/ 
 
 ==========
 2c. Now press <ENTER>. Copy and paste the output below.
 ----------
-
-
+ls: D: No such file or directory
 
 ==========
 3.  Type:
@@ -49,8 +47,8 @@ $ ls -l Documents<ENTER>
 
 Copy and paste the first *two lines* of output below.
 ----------
-
-
+Adobe
+Adobe Flash Builder 4.6
 
 ==========
 4.  Type:
@@ -59,8 +57,8 @@ $ ls -a Documents
 
 Copy and paste the first *two lines* of output below.
 ----------
-
-
+.			.bash_sessions		.nhoptrun		Library
+..			.config			.oracle_jre_usage	Movies
 
 ==========
 5.  Type:
@@ -69,8 +67,7 @@ Copy and paste the first *two lines* of output below.
 
 What command was repeated?
 ----------
-
-
+ls -a was repeated and gave me the same list from the previous.
 
 ==========
 6.  Type:
@@ -79,8 +76,7 @@ What command was repeated?
 
 What command was repeated?
 ----------
-
-
+ls -a was repeated and still gave me the list from before.
 
 ==========
 7.  Type:
@@ -89,8 +85,7 @@ $ ls /Vol<TAB><ENTER>
 
 What is the result of pressing tab?
 ----------
-
-
+/Vol changed to /Volumes/ and said "Macintosh HD".
 
 ==========
 8.  Type:
@@ -99,38 +94,33 @@ $ ls doesnotexist
 
 Copy and paste the output below.
 ----------
-
-
+ls: doesnotexist: No such file or directory
 
 ==========
 9.  What key do I press to go to the previous command?
 ----------
-
+You press the up arrow key. <UP>
 
 
 ==========
 10.  Name two flags that we used in this exercise.
 ----------
-
-
+I have no clue what flags is.
 
 ==========
 11.  What key do I use to attempt to autocomplete a command or a file name?
 ----------
-
-
+Tab <TAB> is the key that autocomplete a command and/or file name.
 
 ==========
 12.  What was the main command that we used throughout this exercise?
 ----------
-
-
+We've been using ls as in list as a command.
 
 ==========
 13.  Name one argument that we passed to the command.
 ----------
-
-
+-a
 
 ==========
 14.  Type:
@@ -139,8 +129,7 @@ $ foo<ENTER>
 
 Copy and paste the output below.
 ----------
-
-
+-bash: foo: command not found
 
 ==========
 15.  Type:
@@ -149,8 +138,7 @@ Copy and paste the output below.
 
 Copy and paste the output below.
 ----------
-
-
+-bash: foo: command not found
 
 ==========
 16.  In the following line....
@@ -159,3 +147,7 @@ $ ls -a Desktop
 
 What is the command, flag, argument, and prompt?
 ----------
+A command is wanting something with no buts about it, an order.
+I have no idea what a flag is, sorry.
+An argument is what is you want after you command the terminal, something specific.
+I have no idea what a prompt is.
